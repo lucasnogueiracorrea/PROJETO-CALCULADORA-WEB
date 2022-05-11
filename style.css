@@ -21,7 +21,7 @@ header{
 #main{
     background-color: white;
     width: 350px;
-    height: 350px;
+    height: 450px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -49,11 +49,17 @@ header{
     color: #012340;
 }
 
-#texto3{
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 2px;
-    color: #012340;
+.btn1{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #012340;
+    outline: none;
+    margin-left: 10px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 #txt1{
@@ -105,8 +111,9 @@ header{
     border: none;
     background-color: #03A63C;
     color: white;
-    cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.426);
+    padding-left: 3px;
+    padding-top: 3px;
 }
 
 #btn:hover{
@@ -117,7 +124,7 @@ header{
     background-color: #03A63C;
     color: white;
     width: 350px;
-    height: 350px;
+    height: 450px;
     border-radius: 10px;
     text-align: justify;
     margin-left: 10px;
