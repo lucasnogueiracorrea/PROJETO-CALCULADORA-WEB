@@ -161,3 +161,22 @@ footer{
     color: #F2F2F2;
     margin-top: 90px;
 }
+
+
+@media (max-width: 1195px){
+    #opcoes{
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+   header{
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+   }
+   #imagemgato{
+       margin-bottom: 20px;
+   }
+
+}
